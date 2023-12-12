@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@builder.io/mitosis"
+  }
+}
