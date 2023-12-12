@@ -6,9 +6,16 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
 
 const name = ref("Alex");
+const string = ref(1);
+
+onMounted(() => {
+  console.log(state);
+});
+
+function a() {}
 </script>
 
 <style scoped>

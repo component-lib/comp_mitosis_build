@@ -12,8 +12,14 @@ export default defineComponent({
   name: "my-component",
 
   data() {
-    return { name: "Alex" };
+    return { name: "Alex", string: 1 };
   },
+
+  mounted() {
+    console.log(this.state);
+  },
+
+  methods: { a: function a() {} },
 });
 </script>
 
